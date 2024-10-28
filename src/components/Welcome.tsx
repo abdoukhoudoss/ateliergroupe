@@ -1,3 +1,6 @@
+
+import "../styles/Data.css"
+import Form from "./Form";
 import "../styles/Welcome.css";
 import dev from "../assets/développeur.avif"
 
@@ -15,6 +18,7 @@ function Welcome() {
         <h3>{slogan}</h3>
         <img src={dev} alt ={titre} className="images"/>
       </section>
+      <Form/>
     </>
   );
 }
