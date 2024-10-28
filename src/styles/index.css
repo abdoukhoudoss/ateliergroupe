@@ -1,0 +1,11 @@
+:root {
+	--main-color: rgb(196, 44, 44);
+	--second-color: white;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
