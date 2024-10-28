@@ -41,7 +41,11 @@
     margin-top: 50px;
     text-align: center;
 }
+.form{
 
+    display: flex;
+    flex-direction: column;
+}
 @media screen and (max-width:450px) {
     .image{
         width: 100%

@@ -1,5 +1,6 @@
 
 import "../styles/Data.css"
+import Form from "./Form";
 
 function Welcome() {
   const titre = "Welcome à la Wild Code School !";
@@ -16,6 +17,7 @@ function Welcome() {
         <h3>{slogan}</h3>
         <img src={image} alt ={titre} className="images"/>
       </section>
+      <Form/>
     </>
   );
 }
