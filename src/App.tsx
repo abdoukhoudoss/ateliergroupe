@@ -1,13 +1,14 @@
 import "./styles/App.css";
-import DevCourse from "./components/DevCourse";
+import Cda from "./components/Cda";
 import Data from "./components/Data";
+import DevCourse from "./components/DevCourse";
 
 function App() {
-
 	return (
 		<>
 			<DevCourse />
-			<Data/>
+			<Data />
+			<Cda />
 		</>
 	);
 }
