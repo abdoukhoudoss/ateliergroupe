@@ -1,4 +1,5 @@
 import "../styles/Data.css";
+import Form from "./Form";
 
 function Welcome() {
 	return (
