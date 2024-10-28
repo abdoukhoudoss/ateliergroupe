@@ -1,11 +1,11 @@
-import "/src/styles/Welcome.css";
+import "../styles/Data.css";
 
 function Welcome() {
 	return (
 		<>
-			<section>
-				<h1>Welcome à la Wild Code School !</h1>
-				<p>
+			<section className="tog">
+				<h1 className="titre">Welcome à la Wild Code School !</h1>
+				<p className="coucou">
 					Pour changer de carrière ou monter en compétences, la Wild Code School
 					propose des formations certifiantes à distance ou sur campus.
 					Développement Web, Data & I.A, Infrastructure & Cybersécurité et
@@ -15,7 +15,7 @@ function Welcome() {
 				<img
 					src="/src/assets/développeur.avif"
 					alt="img-developpeur"
-					className="welcome-image"
+					className="images"
 				/>
 			</section>
 		</>
