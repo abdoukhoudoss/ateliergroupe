@@ -1,18 +1,18 @@
-import React from "react";
-import "../styles/Cda.css";
+
+import "../styles/Data.css";
 
 export default function Cda() {
 	return (
-		<div>
-			<h1>Concepteur développeur d'applications</h1>
-			<img
+		<div className="tog">
+			<h1 className="titre">Concepteur développeur d'applications</h1>
+			<img className="image"
 				src="https://2902314.fs1.hubspotusercontent-na1.net/hub/2902314/hubfs/Formation%20concepteur%20d%C3%A9veloppeur%20dapplications%20%C3%A0%20distance.jpg?width=800&name=Formation%20concepteur%20d%C3%A9veloppeur%20dapplications%20%C3%A0%20distance.jpg"
 				alt="Concepteur développeur d'applications"
 			/>
-			<a href="https://www.wildcodeschool.com/fr-fr/formation-concepteur-developpeur-applications">
+			<a className="lesa" href="https://www.wildcodeschool.com/fr-fr/formation-concepteur-developpeur-applications">
 				CDA
 			</a>
-			<p>
+			<p className="coucou">
 				Après une mise à niveau front-end et back-end, formez-vous aux
 				fondamentaux du GraphQL, à la conteneurisation avec Docker, à
 				l’intégration continue ainsi qu'à la démarche Devops. Concevez des

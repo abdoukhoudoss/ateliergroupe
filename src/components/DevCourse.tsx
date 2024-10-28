@@ -1,4 +1,4 @@
-import "/src/styles/DevCourse.css";
+import "../styles/Data.css";
 
 function DevCourse() {
   const titre: string = "Formation Développeur Web Full Stack";
@@ -7,10 +7,11 @@ function DevCourse() {
     "https://www.wildcodeschool.com/fr-fr/formations-developpement-web/formation-developpeur-web-a-distance";
 
   return (
-    <>
-      <section>
-        <h2>{titre}</h2>
-        <p>
+    
+      <section className="tog">
+        <h1 className="titre" >Formation Développeur Web Full Stack</h1>
+        <img className="image" src={image} alt={titre} />
+        <p className="coucou">
           Cette <strong>formation à distance </strong> est faite pour les
           débutants en développement web, les amateurs de code, de logique et de
           veille technologique, qui souhaitent construire leur avenir
@@ -24,12 +25,12 @@ function DevCourse() {
           encore ! 
         </p>
         <p>Devenez le développeur web que vous rêvez d'être !</p>
-        <article>
-          <img src={image} alt={titre} />
-          <a href={lien}>Lien vers la formation</a>
-        </article>
+       
+      
+          <a className="lesa" href={lien}>Lien vers la formation</a>
+        
       </section>
-    </>
+    
   );
 }
 
