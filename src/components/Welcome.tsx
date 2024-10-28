@@ -1,4 +1,5 @@
-import "/src/styles/Welcome.css";
+import "../styles/Welcome.css";
+import "..//styles/Data.css"
 
 function Welcome() {
   const titre = "Welcome à la Wild Code School !";
@@ -9,11 +10,11 @@ function Welcome() {
 
   return (
     <>
-      <section>
-        <h1>{titre}</h1>
-        <p>{introduction}</p>
+      <section className="tog">
+        <h1 className="titre">{titre}</h1>
+        <p className="coucou">{introduction}</p>
         <h3>{slogan}</h3>
-        <img src={image} alt ={titre} className="welcomeimage"/>
+        <img src={image} alt ={titre} className="images"/>
       </section>
     </>
   );

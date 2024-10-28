@@ -26,6 +26,14 @@
     margin-top: 50px;
  
 }
+.images{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+ 
+}
 .titre{
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +44,9 @@
 
 @media screen and (max-width:450px) {
     .image{
+        width: 100%
+    }
+    .images{
         width: 100%
     }
     .tog{
