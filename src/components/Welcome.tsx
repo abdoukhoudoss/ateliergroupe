@@ -1,5 +1,5 @@
-import "../styles/Welcome.css";
-import "..//styles/Data.css"
+
+import "../styles/Data.css"
 
 function Welcome() {
   const titre = "Welcome à la Wild Code School !";
