@@ -1,0 +1,14 @@
+
+section {
+    margin : 20px;
+}
+
+.welcomeimage {
+    width: 600px;
+    margin: 40px;
+}
+
+h3 {
+    text-decoration: solid;
+    padding-left: 20px;
+}
