@@ -1,14 +1,16 @@
 import "./styles/App.css";
+import { useState } from "react";
 import Cda from "./components/Cda";
 import Data from "./components/Data";
-import DevCourse from "./components/DevCourse";
+import Dev from "./components/Dev";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
-import { useState } from "react";
 import Welcome from "./components/Welcome";
+import type { ReviewProps } from "./types";
 
 function App() {
-	const [page, setPage] = useState("welcome");
+	const [page, setPage] = useState<string>("welcome");
+	const [review, setReview] = useState<ReviewProps[]>([]);
 
 	const handleClickDev = () => {
 		setPage("dev");
@@ -50,13 +52,13 @@ function App() {
 					</button>
 				</div>
 				{page === "dev" ? (
-					<DevCourse />
+					<Dev review={review} />
 				) : page === "data" ? (
-					<Data />
+					<Data review={review} />
 				) : page === "cda" ? (
-					<Cda />
+					<Cda review={review} />
 				) : (
-					<Welcome />
+					<Welcome review={review} setReview={setReview} />
 				)}
 			</div>
 			<Footer />
