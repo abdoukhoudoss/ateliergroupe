@@ -20,6 +20,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .image{
     width: 70%;
     margin-left: auto;
@@ -66,7 +67,7 @@
     .images{
         width: 100%
     }
-    .tog{
+    .course{
         width: 100%;
     }
 }
