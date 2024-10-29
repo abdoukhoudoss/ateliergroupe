@@ -1,0 +1,39 @@
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.title-form {
+    text-align: center;
+}
+
+.input-form {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+    text-align: center;
+    outline: none !important;
+}
+
+.select-form {
+    width: 200px;
+    text-align: center;
+    outline: none !important;
+}
+
+
+.form-button {
+    outline: none !important;
+    width: 200px;
+}
+
+.description-form {
+    height: 100px;
+    text-align: start;
+    padding: 3px;
+}
