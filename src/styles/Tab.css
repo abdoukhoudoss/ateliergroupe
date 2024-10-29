@@ -1,39 +1,40 @@
-.coucou{
-    margin: 50px;
+
+.course-description {
     margin-left: auto;
     margin-right: auto;
 }
-.tog{
+
+.course {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 50%;
-  
+    gap:30px;
 }
-.lesa{
+
+.course-link{
     text-decoration: none;
     color: skyblue;
-    margin-top: 50px;
     font-size: x-large;
     margin-left: auto;
     margin-right: auto;
 }
 .image{
-    width: 40%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    margin-top: 50px;
- 
+    align-items: center;
 }
+
 .images{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
-    margin-top: 50px;
- 
+    border-radius: 10px; 
 }
+
 .titre{
     margin-left: auto;
     margin-right: auto;
@@ -46,6 +47,18 @@
     display: flex;
     flex-direction: column;
 }
+
+.tab {
+    margin-top: 20px;
+}
+
+.form-title {
+    font-size : 1rem;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 @media screen and (max-width:450px) {
     .image{
         width: 100%
